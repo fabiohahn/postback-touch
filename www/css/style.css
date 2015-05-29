@@ -1,1 +1,22 @@
-/* Empty. Add your own CSS if you like */
+div.botao {
+	width: 33%;
+	height: 200px;
+	display: inline-table;
+	vertical-align: top;
+}
+
+div.botao span {
+	font-size: 30px;
+}
+
+#vermelho {
+   	background-color: red;
+}
+
+#amarelo {
+    background-color: yellow;
+}
+
+#verde {
+    background-color: green;
+}
