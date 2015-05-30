@@ -1,4 +1,12 @@
 {
   "name": "postback-touch",
-  "app_id": "9396b80f"
+  "app_id": "9396b80f",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
 }
