@@ -7675,15 +7675,25 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
-section {
-  display: relative; }
+html, body {
+  height: 100%;
+  margin: 0; }
 
 div.botao {
+  line-height: 90vh;
+  float: left;
   width: 33.33333%;
-  height: 300px;
-  float: left; }
+  height: 100vh;
+  padding: 10px; }
   div.botao span {
     font-size: 30px; }
+
+.icone {
+  display: block;
+  text-align: center;
+  font-size: 100px !important;
+  color: rgba(255, 255, 255, 0.3);
+  vertical-align: middle; }
 
 #vermelho {
   background-color: red; }
@@ -7693,3 +7703,9 @@ div.botao {
 
 #verde {
   background-color: green; }
+
+@media (orientation: portrait) {
+  div.botao {
+    width: 100%;
+    height: 33.33333vh;
+    line-height: 90vmin; } }

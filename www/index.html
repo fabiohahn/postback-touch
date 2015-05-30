@@ -13,9 +13,10 @@
   </head>
   <body ng-app="touch">
   <main>
-  
+
     <section ng-controller="AvaliacaoCtrl" on-hold="mostrarDetalhes()">
         <div class="botao" on-tap="qtdVermelho = qtdVermelho + 1" id="vermelho">
+          <span class="icone ion-android-mail"></span>
           <span ng-show="mostrarResultado">{{qtdVermelho}}</span>
         </div>
         <div class="botao" on-tap="qtdAmarelo = qtdAmarelo + 1" id="amarelo">
