@@ -18,10 +18,7 @@ angular.module('touch.controllers', [])
 		$scope.mostrarResultado = true;
 
 		var hideSheet = $ionicActionSheet.show({
-	     titleText: 'Options',
-	     buttons: [
-	       { text: 'Save' }
-	     ],
+	     buttons: [{ text: 'Save' }],
 	     buttonClicked: function(index) {
 	       $ionicPopup.alert({
 		     title: 'Save Success'
