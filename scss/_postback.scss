@@ -7,17 +7,6 @@ div.botao {
 	float: left;
 	width: 33.333333%;
 	height: 100vh;
-	
-	span {
-		font-size: 30px;
-		
-		&:.icone {
-			display: block;
-			text-align: center;
-			font-size: 100px;
-			color: transparentize(#FFF, 1);
-		}
-	}
 }
 
 
@@ -32,6 +21,8 @@ div.botao {
 #verde {
     background-color: green;
 }
+
+
 
 @media (orientation : portrait) {
 	div.botao {
