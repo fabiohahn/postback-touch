@@ -14,13 +14,13 @@
   <body ng-app="touch">
     <main>
       <section ng-controller="AvaliacaoCtrl" on-hold="mostrarDetalhes()">
-          <div class="botao" on-tap="contar('qtdVermelho')" id="vermelho">
+          <div class="botao vermelho" on-tap="contar('qtdVermelho')">
             <span ng-show="mostrarResultado">{{qtdVermelho}}</span>
           </div>
-          <div class="botao" on-tap="contar('qtdAmarelo')" id="amarelo">
+          <div class="botao amarelo" on-tap="contar('qtdAmarelo')">
             <span ng-show="mostrarResultado">{{qtdAmarelo}}</span>
           </div>
-          <div class="botao" on-tap="contar('qtdVerde')" id="verde">
+          <div class="botao verde" on-tap="contar('qtdVerde')">
             <span ng-show="mostrarResultado">{{qtdVerde}}</span>
           </div>
       </section>

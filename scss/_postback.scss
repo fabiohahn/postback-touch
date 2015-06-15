@@ -10,16 +10,25 @@ div.botao {
 }
 
 
-#vermelho {
+.vermelho {
    	background-color: red;
 }
-
-#amarelo {
-    background-color: yellow;
+.vermelhoClaro {
+	background-color: transparentize(red, .5);
 }
 
-#verde {
+.amarelo {
+    background-color: yellow;
+}
+.amareloClaro {
+	background-color: transparentize(yellow, .5);
+}
+
+.verde {
     background-color: green;
+}
+.verdeClaro {
+	background-color: transparentize(green, .5);
 }
 
 

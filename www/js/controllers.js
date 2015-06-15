@@ -17,6 +17,7 @@ angular.module('touch.controllers', [])
 
 	var destacarFeedbackRecebido = function(){
 		console.log("Destacar cor do feedback recebido");
+		//TODO: toogleClass para trocar de cor
 	};
 
 	$scope.mostrarDetalhes = function() {
