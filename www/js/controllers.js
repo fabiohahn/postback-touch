@@ -18,23 +18,23 @@ angular.module('touch.controllers', [])
 		$scope.mostrarResultado = true;
 
 		var hideSheet = $ionicActionSheet.show({
-	     buttons: [{ text: 'Save' }],
-	     buttonClicked: function(index) {
-	       $ionicPopup.alert({
-		     title: 'Save Success'
-		   });
-		   esconderResultados();
-	       return true;
-	     },
-	     destructiveText: 'Reset',
-	     destructiveButtonClicked: function(){
-	     	inicializarContadores();
-	     	esconderResultados();
-	     },
-	     cancelText: 'Cancel',
-	     cancel: function() {
-			esconderResultados();
-	     }
-	   });
+			 buttons: [{ text: 'Save' }],
+			 destructiveText: 'Reset',
+			 cancelText: 'Cancel',
+			 cancel: function() {
+				esconderResultados();
+			 },
+			 destructiveButtonClicked: function(){
+			 	inicializarContadores();
+			 	esconderResultados();
+			 },
+			 buttonClicked: function(index) {
+			   $ionicPopup.alert({
+			     title: 'Save Success'
+			   });
+			   esconderResultados();
+			   return true;
+			 }
+		});
  	};
 });
