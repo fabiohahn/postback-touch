@@ -7683,6 +7683,7 @@ div.botao {
   float: left;
   width: 33.33333%;
   height: 100vh; }
+<<<<<<< HEAD
   div.botao span {
     font-size: 30px; }
     div.botao span.icone {
@@ -7690,15 +7691,26 @@ div.botao {
       text-align: center;
       font-size: 100px;
       color: rgba(255, 255, 255, 0); }
+=======
+>>>>>>> f08dcc5fbd9cf3857614390c4cfa51bcafec36a9
 
-#vermelho {
+.vermelho {
   background-color: red; }
 
-#amarelo {
+.vermelhoClaro {
+  background-color: rgba(255, 0, 0, 0.5); }
+
+.amarelo {
   background-color: yellow; }
 
-#verde {
+.amareloClaro {
+  background-color: rgba(255, 255, 0, 0.5); }
+
+.verde {
   background-color: green; }
+
+.verdeClaro {
+  background-color: rgba(0, 128, 0, 0.5); }
 
 @media (orientation: portrait) {
   div.botao {

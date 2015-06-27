@@ -11,6 +11,7 @@
     <script src="js/controllers.js"></script>
   </head>
   <body ng-app="touch">
+<<<<<<< HEAD
   <main>
     <section ng-controller="AvaliacaoCtrl" on-hold="mostrarDetalhes()">
       <div class="botao" on-tap="qtdVermelho = qtdVermelho + 1" id="vermelho">
@@ -24,5 +25,20 @@
       </div>
     </section>
    </main>
+=======
+    <main>
+      <section ng-controller="AvaliacaoCtrl" on-hold="mostrarDetalhes()">
+          <div class="botao vermelho" on-tap="contar('qtdVermelho')">
+            <span ng-show="mostrarResultado">{{qtdVermelho}}</span>
+          </div>
+          <div class="botao amarelo" on-tap="contar('qtdAmarelo')">
+            <span ng-show="mostrarResultado">{{qtdAmarelo}}</span>
+          </div>
+          <div class="botao verde" on-tap="contar('qtdVerde')">
+            <span ng-show="mostrarResultado">{{qtdVerde}}</span>
+          </div>
+      </section>
+    </main>
+>>>>>>> f08dcc5fbd9cf3857614390c4cfa51bcafec36a9
   </body>
 </html>

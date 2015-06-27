@@ -9,9 +9,15 @@ angular.module('touch.controllers', [])
 		$scope.qtdVerde = 0;
 	};
 	inicializarContadores();
-	
-	var esconderResultados = function(){
-		$scope.mostrarResultado = false;
+
+	$scope.contar = function(tipo){
+		destacarFeedbackRecebido();
+		$scope[tipo]++;
+	};
+
+	var destacarFeedbackRecebido = function(){
+		console.log("Destacar cor do feedback recebido");
+		//TODO: toogleClass para trocar de cor
 	};
 
 	$scope.mostrarDetalhes = function() {
@@ -37,4 +43,8 @@ angular.module('touch.controllers', [])
 			 }
 		});
  	};
+
+ 	var esconderResultados = function(){
+		$scope.mostrarResultado = false;
+	};
 });
